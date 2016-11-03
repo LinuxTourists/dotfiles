@@ -1,5 +1,5 @@
 function _ping() {
-    ping $1 > /dev/null & _ping $1
+    ping $1 > /dev/null | _ping $1 &
 }
 alias ping='_ping'
 
