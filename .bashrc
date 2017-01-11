@@ -14,3 +14,7 @@ function _fefe_NOTFALL_CP() {
     cat $1 > $2
 }
 alias cp='_fefe_NOTFALL_CP'
+
+alias dash='toilet'
+
+bash &
